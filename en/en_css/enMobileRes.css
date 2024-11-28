@@ -1407,6 +1407,31 @@ width: 3.8vw;
 }
 /* ====================================================== */
 /* set by width generally for all range sizes */
+
+@media  (min-width: 210px) and (max-width: 359px){
+
+    .slide{
+        width:80px;
+    }
+    .bullet{
+        width: 6px;
+        height: 6px;
+        margin: 0 4px;
+    }
+    .container_bgMenu_tabMo {
+        gap:3vw;
+    }
+    .logo_photo_class_tabMo {
+        height: 9vh;
+        width: 20vw;
+    }
+    .logo_tabMo {
+        flex-basis: 20%;
+    }
+}
+
+
+
 @media  (min-width: 360px) and (max-width: 394px){
     .lang{
         margin-top: -15%;

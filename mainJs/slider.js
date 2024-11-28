@@ -33,7 +33,8 @@ function createBullets() {
         bullet.addEventListener('click', () => {
             currentIndex = index;
             updateSlides();
-            resetAutoSlide(); // Reset auto-slide on bullet click
+            // resetAutoSlide(); 
+            // Reset auto-slide on bullet click
         });
         bulletContainer.appendChild(bullet);
     });
@@ -44,7 +45,8 @@ function addImageClickEvents() {
         slide.addEventListener('click', () => {
             currentIndex = index;
             updateSlides();
-            resetAutoSlide(); // Reset auto-slide on image click
+            // resetAutoSlide(); 
+            // Reset auto-slide on image click
         });
     });
 }
