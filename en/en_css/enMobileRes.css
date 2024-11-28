@@ -1428,6 +1428,12 @@ width: 3.8vw;
     .logo_tabMo {
         flex-basis: 20%;
     }
+    .menuMT {
+        width: 30%;
+    }
+    .menu_textBtn {
+        margin-left: 47%;
+    }
 }
 
 
